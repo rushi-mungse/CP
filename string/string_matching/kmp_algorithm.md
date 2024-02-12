@@ -21,5 +21,6 @@ vector<int> kmp(string &str, string &pattern) {
         if(lps[i] == m) pattern_match.push_back(i - 2*m);
     }
     return pattern_match;
+}
 
 ```
